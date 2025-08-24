@@ -23,7 +23,7 @@ import json
 import os
 import random
 import re
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import numpy as np
 from tqdm import tqdm
@@ -37,10 +37,6 @@ try:
 except:
     llmadapters = None
 import argparse
-import json
-import re
-from typing import List, Optional, Tuple
-
 import torch
 
 from corenet.options.opts import get_lm_eval_arguments
